@@ -1,0 +1,38 @@
+<annotation>
+  <folder>Achicoria</folder>
+  <filename>DSC00142</filename>
+  <path>C:\corfo robot\Label\800x600\800x600\Achicoria\DSC00142.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>achicoria</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>251</xmin>
+      <ymin>264</ymin>
+      <xmax>420</xmax>
+      <ymax>440</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>achicoria</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>447</xmin>
+      <ymin>252</ymin>
+      <xmax>608</xmax>
+      <ymax>427</ymax>
+    </bndbox>
+  </object>
+</annotation>

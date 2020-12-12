@@ -1,0 +1,26 @@
+<annotation>
+	<folder>900</folder>
+	<filename>DSC00910.jpg</filename>
+	<path>/Users/franciscobarrios/Documents/export/images/data/900/DSC00910.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>achicoria</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>287</xmin>
+			<ymin>117</ymin>
+			<xmax>595</xmax>
+			<ymax>506</ymax>
+		</bndbox>
+	</object>
+</annotation>
