@@ -29,7 +29,12 @@ cp  data/600/*.jpg images/
 cp  data/700/*.jpg images/
 cp  data/800/*.jpg images/
 cp  data/900/*.jpg images/
-
+cp  data/01-12-2020\ Achicoria/*.jpg images/
+cp  data/03-12-2020\ Achicoria/*.jpg images/
+cp  data/23-11-2020\ Achicoria/*.jpg images/
+cp  data/24-11-2020\ Achicoria/*.jpg images/
+cp  data/26-11-2020\ Achicoria/*.jpg images/
+cp  data/28-11-2020\ Achicoria/*.jpg images/
 
 
 
@@ -43,6 +48,14 @@ cp  data/600/yolo/*.txt labels/
 cp  data/700/yolo/*.txt labels/
 cp  data/800/yolo/*.txt labels/
 cp  data/900/yolo/*.txt labels/
+cp  data/01-12-2020\ Achicoria/yolo/*.txt labels/
+cp  data/03-12-2020\ Achicoria/yolo/*.txt labels/
+cp  data/23-11-2020\ Achicoria/yolo/*.txt labels/
+cp  data/24-11-2020\ Achicoria/yolo/*.txt labels/
+cp  data/26-11-2020\ Achicoria/yolo/*.txt labels/
+cp  data/28-11-2020\ Achicoria/yolo/*.txt labels/
+
+
 
 cp data/classes.names ./
 
@@ -55,11 +68,9 @@ mv images custom/
 python checkImages.py 
 
 
-
-
 if [ $? == 0 ]; then
 echo "Comprimiendo"
-zip -r custom.zip custom
+zip -rqq custom.zip custom
 else
 echo "Hay errores corregir"
 fi

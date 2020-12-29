@@ -5,8 +5,16 @@ import xml.etree.ElementTree as ET
 from os import listdir, getcwd
 from os.path import join
 
-dirs = ['000','100', '200', '300', '400', '500', '600', '700','800', '900']
-classes = ['achicoria', 'maleza']
+dirs = ['000','100', '200', '300', '400', '500', '600', '700','800', '900',
+'01-12-2020 Achicoria',
+'03-12-2020 Achicoria', 
+'11-12-2020 Achicoria', 
+'23-11-2020 Achicoria',
+'24-11-2020 Achicoria', 
+'26-11-2020 Achicoria', 
+'28-11-2020 Achicoria']
+
+classes = ['achicoria']
 
 def getImagesInDir(dir_path):
     image_list = []
